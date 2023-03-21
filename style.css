@@ -1,0 +1,92 @@
+#header{
+    position:relative;
+    width:100vw;
+    max-width: 100%;
+    height: 100vh;
+}
+#top_dark{
+    position: absolute;
+    background-color: #0A0A23;
+    transform: skewY(38deg);
+    width: 100vw;
+    height: 1700px;
+    bottom: 600px;
+    max-width: 100%;
+ }
+#bottom_light{
+    position: absolute;
+    background-color: #29298E;
+    transform: skewY(22deg);
+    width: 100vw;
+    height: 1700px;
+    bottom: 250px;
+    max-width: 100%;
+ }
+#mid_mid{
+    position: absolute;
+    background-color: #131342;
+    transform: skewY(30deg);
+    width: 100vw;
+    height: 1700px;
+    bottom: 400px;
+    max-width: 100%;
+ }
+#navbar{
+   width: 100vw;
+   position:absolute;
+   max-width: 100%;
+   height:300vh;
+   top:0;
+   z-index: 1;
+}
+#top_dark1{
+   position: sticky;
+   top:0;
+   background-color: #0A0A23;
+   width: 100vw;
+   height: 100px;
+   max-width: 100%;
+   visibility:hidden;
+}
+#mid_mid1{
+   position: sticky;
+   top:100px;
+   background-color: #131342;
+   width: 100vw;
+   height: 10px;
+   max-width: 100%;
+   visibility:hidden;
+}
+#bottom_light1{
+   position: sticky;
+   top:110px;
+   background-color: #29298E;
+   width: 100vw;
+   height: 10px;
+   max-width: 100%;
+   visibility:hidden;
+}
+body{
+    margin:0;
+    background-color: #A8A8E6;
+}
+#logo{
+   position:relative;
+   width: 500px;
+   height: auto
+   
+}
+#advithink{
+   position:relative;
+   width: 500px;
+   height: auto;
+   transform:translateY()
+}
+#log_adv{
+   position:absolute;
+   width:25vw;
+   left:60vw;
+   top:20vh;
+   z-index: 2;
+}
+
